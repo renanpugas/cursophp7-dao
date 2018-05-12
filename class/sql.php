@@ -18,7 +18,7 @@ class Sql extends PDO {
 
 	}
 
-	private function setParam($statment, $key, $value) {
+	private function setParam($statement, $key, $value) {
 
 		$statement->bindParam($key, $value);
 
