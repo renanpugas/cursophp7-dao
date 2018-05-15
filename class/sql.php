@@ -24,7 +24,7 @@ class Sql extends PDO {
 
 	}
 
-	public function query($rawQuery, $params =array()) {
+	public function query($rawQuery, $params = array()) {
 
 		$stmt = $this->conn->prepare($rawQuery);
 
